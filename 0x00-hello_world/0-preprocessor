@@ -1,0 +1,2 @@
+#!/bin/bash
+cpp $CFILE | gcc -x c -c -o ${CFILE%.c}.o -
